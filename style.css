@@ -1,0 +1,41 @@
+img {
+    width: 1300px;
+}
+
+footer {
+    position: absolute;
+    top: 800px;
+    left: 650px;
+}
+
+.title {
+    position: absolute;
+    top: 200px;
+    right: 350px;
+    font-size: 30px;
+}
+
+.button {
+    position: absolute;
+    top: 400px;
+    right: 500px;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+}
+
+.button:hover {
+    background-color: blue;
+    box-shadow: 10px 5px 5px black;
+}
+
+.title:hover {
+    color: red;
+
+}
